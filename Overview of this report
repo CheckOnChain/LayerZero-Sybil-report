@@ -1,0 +1,31 @@
+May-19-2024
+
+
+
+Today, I send this report to LayerZero team to report Sybil activities and join the Sybil Bounty Hunting.
+First, I'm sorry because my github account is new account and I can not Pull a Request on LayerZero Sybil github. Please understand me!
+
+In this post, I will talk about my method, I will post .txt files with information about Sybil in this same group.
+This is my way to get a list of this Sybil:
+1.	Download all transaction bridge ETH from Ethereum mainnet to Base layer2  mainnet from Sep-25-2023 to Sep-29-2023.
+
+2.	Scan all wallet bridge ETH amount from 0.00250 to 0.00300 to Base.
+
+3.	Filter out all wallets that have received Arbitrum airdrop rewards – This is Original list – They received ~550.000 ARB from airdrop.
+
+4.	Manual check transaction on Ethereum and Base mainnet of that Original list I see this:
+    A.	
+      •	All wallet in the list bridge ETH to Base on Sep-26-2023 (+- 24 hours). Base contract: 0x49048044D57e1C92A77f79988d21Fa8fAF74E97e
+      •	All wallet in the list bridge ETH to Linea on Sep-28-2023 (+- 24 hours). Linea contract: 0xd19d4B5d358258f05D7B411E21A1460D11B0876F
+      •	All wallet in the list bridge ETH to Polygon ZkEVM on Oct-11-2023. Polygon ZkEVM contract: 0x2a3DD3EB832aF982ec71669E178424b10Dca2Ede
+    B.	
+      •	96 wallet on the list send ETH mainnet to address 0xe25C2A2084c098dac8F3F3Ff6E1039E9dD5de470 on May-13-2024 (link: https://etherscan.io/address/0xe25C2A2084c098dac8F3F3Ff6E1039E9dD5de470)
+        And send ETH on Base to address 0xFBA50eA4f0B70B046577466f5bA2D8abaEDd12f9 on May-16-2024 (link: https://basescan.org/address/0xFBA50eA4f0B70B046577466f5bA2D8abaEDd12f9)
+      •	Check on Base mainnet – all wallet on the list Swap ERC20 token The Doge NFT – DOG to ETH on Uniswap on Feb-11-2024 (+- 24 hours) and an exact day at Apr-04-2024.
+      •	Check on Arbitrum mainnet – All wallet on the list have transaction to buy ARB token on Uniswap on Mar-31-2023 (+- 24 hours) with the amount of ETH in range from 0.000700 ETH to 0.001200 ETH to receive ARB token from 1.01 to 1.50. And all wallet send all ARB token from Arbitrum airdrop to OKX deposit address on Mar-23-2023.
+      •	Check on LayerZeroScan – last time of 3 transaction of all wallet is May-02-2024 and Apr-04-2024 and Mar-03-2024  (+- 24 hours). And the Source chain of the last 3 transaction of all wallet on the list have type: Zksync - Zksync – Polygon.
+
+5.	Check with LayerZero initialList – I see 237 wallets in Original list has been self-report a sybil address. And 256 wallets is not on LayerZero initialList.
+  •	237 self-reported wallets have ~218 wallet receive ETH from FTX and 19 wallet receive ETH from Binance
+  •	256 wallets didn’t self-report have 88 wallets receive ETH from Binance on Feb-25-2023 and 158 wallets receive ETH from Binance on Feb-19-2023 (+UTC time). Other wallet receive at other time.
+  
